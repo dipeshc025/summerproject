@@ -1,0 +1,181 @@
+/* 
+    Author: Dipesh Katwal;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+   
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+
+}
+.tbl-full{
+     width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1% ;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+ .success{
+    color: #2c8251;
+ }
+.error{
+    color: #ff4757;
+}
+
+
+/* css for menu */
+.menu{
+    border-bottom: 1px solid black;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:  #ff6b81;
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+
+/* css for main content */
+.main-content{ 
+    background-color:#a4b0be ;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 16%;
+    background-color: white;
+    margin: 2%;
+    padding: 2%;
+    float:left;
+}
+
+
+
+/* css for footer*/
+
+.footer{
+    background-color: #ff6b81;
+    color: white;
+}
+
+
+
+/* css for Login*/
+.login{
+   
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+    background-color:#3742fa;
+    border-radius: 10px;
+}
+
+/* Style for the input fields */
+.login input[type="text"],
+.login input[type="password"] {
+  width: 100%; /* Set the width of the input fields to 100% */
+  padding: 12px 20px; /* Add padding to the input fields */
+  margin: 8px 0; /* Add margin to the input fields */
+  box-sizing: border-box; /* Set the box-sizing property to border-box */
+  border: 2px solid #ccc; /* Add a border to the input fields */
+  border-radius: 8px; /* Add rounded corners to the input fields */
+}
+
+/* Style for the submit button */
+.login input[type="submit"] {
+  background-color: #4CAF50; /* Set the background color of the submit button */
+  color: white; /* Set the text color of the submit button */
+  padding: 14px 20px; /* Add padding to the submit button */
+  margin: 8px 0; /* Add margin to the submit button */
+  border: none; /* Remove the border of the submit button */
+  border-radius: 8px; /* Add rounded corners to the submit button */
+  cursor: pointer; /* Change the mouse pointer when hovering over the submit button */
+}
+
+/* Change the background color of the submit button on hover */
+.login input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style for the created by message */
+.login p {
+  font-size: 14px; /* Set the font size of the message text */
+}
+
+/* Style for the created by link */
+.login a {
+  color: #4CAF50; /* Set the link color */
+  text-decoration: none; /* Remove the underline from the link */
+}
+
+/* Change the link color on hover */
+.login a:hover {
+  color: #45a049;
+}
